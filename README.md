@@ -56,7 +56,7 @@ The final 6-item scale (Cronbach's α = .92) optimized for engagement tracking:
     * **Confirmatory Factor Analysis (CFA):** To optimize the scale to a concise, high-reliability 6-item instrument.
     * **Invariance Testing:** To statistically prove the metric works equally well across Gender, Age, and Media Format (Text vs. Video).
 * **Tools:**
-    * **SPSS:** Used for inferential statistics and exploratory factor analyses.
+    * **SPSS:** Used for initial investigation and exploratory factor analyses.
     * **AMOS:** Used for confirmatory factor analyses, structural equation modeling, and multi-group invariance testing.
 
 ---
