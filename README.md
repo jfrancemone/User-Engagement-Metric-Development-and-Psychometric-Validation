@@ -61,3 +61,12 @@ Rigorously tested the metric to ensure it works across different content formats
 │   └── (Data available upon request)     <-- N=2,626 validation dataset
 │
 └── Francemone_Scale_Development_2024.pdf <-- Full Technical Report / Publication
+```
+
+---
+
+### **My Role**
+**Primary Statistician & Co-Author**
+* Co-led the psychometric validation strategy, including Exploratory and Confirmatory Factor Analysis.
+* Managed large-scale data aggregation across 7 distinct sample populations (N=2,626).
+* Conducted measurement invariance testing to ensure cross-platform scale stability.
