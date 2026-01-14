@@ -44,6 +44,8 @@ The final 6-item scale (Cronbach's α = .92) optimized for engagement tracking:
 5. "I felt negative emotions at times, while at other times I felt positive emotions."
 6. "My feelings changed a lot from the beginning to the end."
 
+![CFA Path Diagram](factor_structure_viz.png)
+
 ---
 
 ### **Methodology**
@@ -56,11 +58,6 @@ The final 6-item scale (Cronbach's α = .92) optimized for engagement tracking:
 * **Tools:**
     * **SPSS:** Used for inferential statistics and exploratory factor analyses.
     * **AMOS:** Used for confirmatory factor analyses, structural equation modeling, and multi-group invariance testing.
-
-### **Model Visualization**
-The final 6-item measurement model demonstrating a single latent construct for Emotional Flow.
-
-![CFA Path Diagram](factor_structure_viz.png)
 
 ---
 
