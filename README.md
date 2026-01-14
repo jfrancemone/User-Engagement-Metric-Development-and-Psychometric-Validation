@@ -64,7 +64,7 @@ The final 6-item scale (Cronbach's α = .92) optimized for engagement tracking:
 ### **Repository Structure**
 
 ```text
-/User-Engagement-Metric-Development-and-Psychometric_Validation
+/User-Engagement-Metric-Development-and-Psychometric-Validation
 │
 ├── /data
 │   ├── EFS_data.csv                              <-- Complete dataset (converted to csv)
@@ -78,7 +78,7 @@ The final 6-item scale (Cronbach's α = .92) optimized for engagement tracking:
 │   ├── /sample                                   <-- Invariance testing: Student vs. General Pop
 │   └── /stimuli                                  <-- Invariance testing: Text vs. Video Content
 │
-├── /model_comparison_invariance_tests            <-- Robestness Checks (9-Item Model)
+├── /model_comparison_invariance_tests            <-- Robustness Checks (9-Item Model)
 │   ├── 9_item_comparison_model.amw               <-- Alternative specification for fit comparison
 │   ├── 9_item_comparison_model.AmosOutput        <-- Output for comparison
 │   └── (Subfolders contain full invariance suite for the 9-item structure)
@@ -91,6 +91,6 @@ The final 6-item scale (Cronbach's α = .92) optimized for engagement tracking:
 
 ### **My Role**
 **Primary Statistician & Co-Author**
-* Co-led the psychometric validation strategy, including Exploratory and Confirmatory Factor Analysis.
+* Co-led the psychometric validation strategy, including exploratory and confirmatory factor analyses.
 * Managed large-scale data aggregation across 7 distinct sample populations (N=2,626).
-* Conducted measurement invariance testing to ensure cross-platform scale stability.
+* Conducted measurement invariance testing to ensure cross-platform and cross-population scale stability.
