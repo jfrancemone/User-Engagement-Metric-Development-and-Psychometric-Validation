@@ -1,7 +1,7 @@
 # 📈 User Engagement Metric Development & Psychometric Validation
 
 [![Publication](https://img.shields.io/badge/Publication-Media_Psychology_(2023)-blue)](https://doi.org/10.1080/15213269.2023.2215447)
-[![Method](https://img.shields.io/badge/Method-Psychometrics_%7C_Survey_Validation_(N%3D2,600k)-green)](https://github.com/jfrancemone/User-Engagement-Metric-Development-and-Psychometric-Validation)
+[![Method](https://img.shields.io/badge/Method-Psychometrics_%7C_Survey_Validation_(N%3D2,600)-green)](https://github.com/jfrancemone/User-Engagement-Metric-Development-and-Psychometric-Validation)
 [![Tools](https://img.shields.io/badge/Tools-SPSS_%7C_AMOS-orange)](https://github.com/jfrancemone/User-Engagement-Metric-Development-and-Psychometric-Validation)
 
 ### **Project Overview**
@@ -51,7 +51,7 @@ Rigorously tested the metric to ensure it works across different content formats
 ### **Repository Structure**
 
 ```text
-/User-Engagement-Metric-Development
+/User-Engagement-Metric-Development-and-Psychometric_Validation
 │
 ├── /data
 │   ├── EFS_data.csv                              <-- Complete dataset (converted to csv)
@@ -65,7 +65,7 @@ Rigorously tested the metric to ensure it works across different content formats
 │   ├── /sample                                   <-- Invariance testing: Student vs. General Pop
 │   └── /stimuli                                  <-- Invariance testing: Text vs. Video Content
 │
-├── /model_comparison_invariance_tests            <-- Rubestness Checks (9-Item Model)
+├── /model_comparison_invariance_tests            <-- Robestness Checks (9-Item Model)
 │   ├── 9_item_comparison_model.amw               <-- Alternative specification for fit comparison
 │   └── (Subfolders contain full invariance suite for the 9-item structure)
 │
