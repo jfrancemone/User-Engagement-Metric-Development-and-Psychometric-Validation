@@ -35,6 +35,17 @@ Rigorously tested the metric to ensure it works across different content formats
 
 ---
 
+### **The Validated Instrument (Emotional Flow Scale)**
+The final 6-item scale (Cronbach's α = .92) optimized for engagement tracking:
+1. "I felt a range of emotions."
+2. "Some of my emotions felt intense while others felt less intense."
+3. "I felt a series of shifts in my emotions."
+4. "I felt like I was on an emotional rollercoaster."
+5. "I felt negative emotions at times, while at other times I felt positive emotions."
+6. "My feelings changed a lot from the beginning to the end."
+
+---
+
 ### **Methodology**
 
 * **Data Source:** N = 2,626 participants aggregated across 7 independent studies.
