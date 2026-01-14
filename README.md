@@ -1,7 +1,7 @@
 # 📈 User Engagement Metric Development & Psychometric Validation
 
 [![Publication](https://img.shields.io/badge/Publication-Media_Psychology_(2023)-blue)](https://doi.org/10.1080/15213269.2023.2215447)
-[![Method](https://img.shields.io/badge/Method-Psychometrics_%7C_Survey_Validation_(N%3D2.6k)-green)](https://github.com/jfrancemone/User-Engagement-Metric-Development-and-Psychometric-Validation)
+[![Method](https://img.shields.io/badge/Method-Psychometrics_%7C_Survey_Validation_(N%3D2,600k)-green)](https://github.com/jfrancemone/User-Engagement-Metric-Development-and-Psychometric-Validation)
 [![Tools](https://img.shields.io/badge/Tools-SPSS_%7C_AMOS-orange)](https://github.com/jfrancemone/User-Engagement-Metric-Development-and-Psychometric-Validation)
 
 ### **Project Overview**
@@ -53,14 +53,23 @@ Rigorously tested the metric to ensure it works across different content formats
 ```text
 /User-Engagement-Metric-Development
 │
-├── /instrument
-│   ├── Emotional_Flow_Scale_Items.pdf    <-- The final 6-item metric for deployment
-│   └── Scoring_Instructions.txt          <-- Guide for calculating the flow score
+├── /data
+│   ├── EFS_data.csv                              <-- Complete dataset (converted to csv)
+│   └── EFS_data.sav                              <-- Original dataset (SPSS format)
 │
-├── /validation_data
-│   └── (Data available upon request)     <-- N=2,626 validation dataset
+├── /baseline_model_invariance_tests              <-- FINAL MODEL (6-Item Model)
+│   ├── baseline_model.amw                        <-- Path diagram & model specification (AMOS)
+│   ├── baseline_model.AmosOutput                 <-- Statistical output (Chi-Square, CFI, RMSEA)
+│   ├── /age                                      <-- Invariance testing: Younger vs. Older
+│   ├── /sex                                      <-- Invariance testing: Male vs. Female
+│   ├── /sample                                   <-- Invariance testing: Student vs. General Pop
+│   └── /stimuli                                  <-- Invariance testing: Text vs. Video Content
 │
-└── Francemone_Scale_Development_2024.pdf <-- Full Technical Report / Publication
+├── /model_comparison_invariance_tests            <-- Rubestness Checks (9-Item Model)
+│   ├── 9_item_comparison_model.amw               <-- Alternative specification for fit comparison
+│   └── (Subfolders contain full invariance suite for the 9-item structure)
+│
+└── Francemone_Scale_Development_2023.pdf         <-- Full Technical Report / Publication
 ```
 
 ---
