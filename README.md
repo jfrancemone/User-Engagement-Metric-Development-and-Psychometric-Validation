@@ -6,12 +6,12 @@
 
 ### **Project Overview**
 
-In UX Research, poorly designed metrics lead to noisy data. This project demonstrates **Advanced Psychometrics** and **Metric Development**—moving beyond basic survey design to engineer a mathematically validated instrument for measuring **Dynamic User Engagement**.
+Poorly designed metrics lead to noisy data. This project demonstrates **Advanced Psychometrics** and **Metric Development** by moving beyond survey design to develop a mathematically validated instrument for measuring **Dynamic User Engagement**.
 
-Standard sentiment analysis is static (e.g., "Positive" or "Negative"). However, engagement is a journey. Using **Confirmatory Factor Analysis (CFA)** and **Invariance Testing** on a sample of **2,626 users**, I developed and validated the "Emotional Flow Scale"—a robust KPI that measures the *trajectory* of user sentiment during content consumption.
+Standard sentiment analysis is static (e.g., "Positive" or "Negative"). However, engagement is a process. Using **Confirmatory Factor Analysis (CFA)** and **Invariance Testing** on a sample of **2,626 users**, I developed and validated the Emotional Flow Scale, a robust KPI that measures the *trajectory* of user sentiment during content consumption.
 
 > **📄 Publication:**
-> Fitzgerald, K., **Francemone, C. J.**, Green, M. C., Grizzard, M., & Frazer, R. (2023). The Emotional Flow Scale: Validating a measure of dynamic emotional experiences in message reception. *Media Psychology, 26*(6), 668–689.
+> Fitzgerald, K., Francemone, C. J., Green, M. C., Grizzard, M., & Frazer, R. (2023). The Emotional Flow Scale: Validating a measure of dynamic emotional experiences in message reception. *Media Psychology, 26*(6), 668–689.
 >
 > [**Read the Full Paper (PDF)**](Francemone_Scale_Development_2023.pdf)
 
@@ -19,17 +19,17 @@ Standard sentiment analysis is static (e.g., "Positive" or "Negative"). However,
 
 ### **Key Findings & Strategic Insights**
 
-#### **1. The "Journey" Predicts Retention Better Than the "Vibe"**
+#### **1. The Process Predicts Retention Better Than the "Vibe"**
 * **The Finding:** Static enjoyment (how "fun" content was) is a weaker predictor of meaningful engagement than Emotional Flow (how much the content *moved* the user).
-* **Strategic Insight:** **Metric Development.** For platforms seeking long-term user retention (e.g., Streaming, EdTech), optimizing for "Sentiment Volatility" (ups and downs) yields higher "Appreciation" scores than optimizing for pure positivity.
+* **Strategic Insight:** **Metric Development.** For platforms seeking long-term user retention (e.g., Streaming, EdTech), optimizing for emotional diversity (ups and downs) yields greater positive evaluation than optimizing for pure positivity.
 
 #### **2. Cross-Platform Scalability (Invariance Testing)**
-We rigorously tested the metric to ensure it works across different product surfaces.
-* **The Finding:** The metric demonstrated **Measurement Invariance** across text-based narratives vs. audio-visual video content.
-* **Business Impact:** **Universal KPI.** This metric is robust enough to be deployed as a standardized "Engagement Score" across diverse product lines (e.g., News Feed vs. Video Player) without needing recalibration.
+Rigorously tested the metric to ensure it works across different content formats.
+* **The Finding:** The metric demonstrated **Measurement Invariance** across text-based vs. audio-visual video content.
+* **Business Impact:** **Universal KPI.** This metric is robust enough to be deployed as a standardized engagement score across diverse product lines (e.g., News Feed vs. Video Player) without needing recalibration.
 
 #### **3. Validated Sensitivity to Content Changes**
-* **The Validation:** In a controlled A/B test (Study 3), we manipulated content to have 0, 1, or 2 emotional shifts.
+* **The Validation:** In a controlled A/B test (Study 3), content was manipulated to have 0, 1, or 2 emotional shifts.
 * **The Result:** The metric successfully detected these shifts with linear precision.
 * **Application:** This tool is sensitive enough to be used in **A/B Testing** for content sequencing, allowing algorithms to optimize playlist order for maximum emotional engagement.
 
@@ -43,13 +43,12 @@ We rigorously tested the metric to ensure it works across different product surf
     * **Confirmatory Factor Analysis (CFA):** To optimize the scale to a concise, high-reliability 6-item instrument.
     * **Invariance Testing:** To statistically prove the metric works equally well across Gender, Age, and Media Format (Text vs. Video).
 * **Tools:**
-    * **SPSS (AMOS):** Used for Structural Equation Modeling (SEM) and multi-group invariance testing.
+    * **SPSS:** Used for inferential statistics and exploratory factor analyses.
+    * **AMOS:** Used for confirmatory factor analyses, structural equation modeling, and multi-group invariance testing.
 
 ---
 
 ### **Repository Structure**
-
-This repository serves as a "Shell" for the validated instrument and the associated publication.
 
 ```text
 /User-Engagement-Metric-Development
